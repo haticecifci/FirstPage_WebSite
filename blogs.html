@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog Cards & Footer</title>
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a href="cards-footer.html" class="navbar-brand">
+                <i class="fa-solid fa-house"></i>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="mobile" class="collapse navbar-collapse">
+
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a href="cards-footer.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blogs.html" class="nav-link">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <form class="d-flex"> 
+                <div class="row g-1">
+                    <div class="col-8">
+                        <input type="text" class="form-control me-1" placeholder="Search">
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-warning">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-md-3 order-2 order-md-1">
+                    <div class="list-group">
+                        <a href="" class="list-group-item list-group item actiob">Catagory 1</a>
+                        <a href="" class="list-group-item list-group item-action">Catagory 2</a>
+                        <a href="" class="list-group-item list-group item-action">Catagory 3</a>
+                        <a href="" class="list-group-item list-group item-action">Catagory 4</a>
+                    </div>
+                </div>
+                <div class="col-md-9 order-1 order-md-2">
+                    <nav>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Library</a></li>
+                            <li class="breadcrumb-item active"><a href="#">Data</a></li>
+                        </ol>
+                    </nav>
+
+                    <div class="card mb-2 shadow">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="1.jpeg" alt="" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium modi deserunt neque soluta, itaque quibusdam quas ab cumque beatae ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-2 shadow">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="2.jpeg" alt="" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium modi deserunt neque soluta, itaque quibusdam quas ab cumque beatae ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-2 shadow">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="3.jpeg" alt="" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium modi deserunt neque soluta, itaque quibusdam quas ab cumque beatae ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-2 shadow">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="4.jpeg" alt="" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium modi deserunt neque soluta, itaque quibusdam quas ab cumque beatae ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav class="my-5">
+                        <ul class="pagination justify-content-end">
+                          <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
+
+                          <li class="page-item"><a href="#" class="page-link">1</a></li>
+                          <li class="page-item"><a href="#" class="page-link">2</a></li>
+                          <li class="page-item"><a href="#" class="page-link">3</a></li>
+                          <li class="page-item"><a href="#" class="page-link">Next</a></li>
+
+
+                        </ul> 
+                  </nav>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <span>All Rights Reserved.@2025</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    </body>
